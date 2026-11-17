@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="ML Detailing">
+  <title>ML — детейлинг</title>
+  <defs>
+    <linearGradient id="ml-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7e3b4"/>
+      <stop offset="45%" stop-color="#e5b869"/>
+      <stop offset="100%" stop-color="#b98b3e"/>
+    </linearGradient>
+    <linearGradient id="ml-frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3d9a4"/>
+      <stop offset="50%" stop-color="#e5b869"/>
+      <stop offset="100%" stop-color="#8f6a2c"/>
+    </linearGradient>
+    <radialGradient id="ml-sheen" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#070709"/>
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="27.2" fill="none" stroke="url(#ml-frame)" stroke-width="1.6"/>
+  <rect x="11" y="11" width="106" height="106" rx="22" fill="none" stroke="#e5b869" stroke-opacity="0.22" stroke-width="0.75"/>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#ml-sheen)"/>
+  <path d="M76.8112600286733 44.87499995733752V80.12500004266248H67.53359655406766V48.36233456050541L69.62978967437601 48.56912997116222L55.96207833758148 80.12500004266248H46.12040912430594L32.452697787511404 48.67252767649063L34.548890907819754 48.4375334132265V80.12500004266248H25.27122743321412V44.87499995733752H40.320401419836955L52.95412996604273 75.13369412237756H49.20355634856578L61.76208604205047 44.87499995733752Z" fill="url(#ml-gold)"/>
+    <path d="M83.12028301736912 44.87499995733752V75.80106314254766L78.73994841203967 71.45833083223111H105.09755650806656V80.12500004266248H73.36322757382965V44.87499995733752Z" fill="url(#ml-gold)"/>
+</svg>

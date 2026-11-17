@@ -1,0 +1,6 @@
+# Домен в Sitemap — заглушка https://example.ru (замените перед публикацией).
+User-agent: *
+Allow: /
+
+Host: https://example.ru
+Sitemap: https://example.ru/sitemap.xml

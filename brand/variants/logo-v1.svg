@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="ML Detailing, монолайн с силуэтом автомобиля">
+  <title>ML — монолайн и линия крыши</title>
+  <defs>
+    <style>
+      .ml-v1-line { fill: none; stroke: #f3d9a4; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; }
+      .ml-v1-car  { fill: none; stroke: #f3d9a4; stroke-width: 11; stroke-linecap: round; stroke-linejoin: round; }
+      .ml-v1-rock { fill: none; stroke: #f3d9a4; stroke-width: 8; stroke-linecap: round; }
+      .ml-v1-wheel{ fill: none; stroke: #f3d9a4; stroke-width: 8; }
+    </style>
+  </defs>
+  <rect id="bg" width="1024" height="1024" fill="#070709"/>
+  <g transform="translate(-8,-8)">
+    <path class="ml-v1-line" d="M 232 548 L 232 268 L 384 492 L 536 268 L 536 548"/>
+    <path class="ml-v1-line" d="M 620 268 L 620 548 L 820 548"/>
+    <path class="ml-v1-car" d="M 198 742 C 190 742 186 728 198 722 C 230 714 268 710 312 706 C 338 704 358 658 382 634 C 410 606 468 592 548 590 C 628 588 686 598 718 626 C 748 652 776 696 828 706 C 874 712 924 714 952 720 C 968 722 968 734 956 740"/>
+    <path class="ml-v1-rock" d="M 392 738 L 778 738"/>
+    <circle class="ml-v1-wheel" cx="318" cy="750" r="34"/><circle class="ml-v1-wheel" cx="844" cy="750" r="34"/>
+  </g>
+</svg>
